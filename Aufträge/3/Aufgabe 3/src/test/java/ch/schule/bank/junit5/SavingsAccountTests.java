@@ -25,9 +25,22 @@ import static org.junit.jupiter.api.Assertions.*;
 public class SavingsAccountTests
 {
 	@Test
-	public void test()
+	public void withdrawWithinBalance()
 	{
-		fail("toDo");
+		SavingsAccount a = new SavingsAccount("S-TEST");
+		assertTrue(a.deposit(1, 10_000)); // 0.10 CHF
+		assertEquals(10_000, a.getBalance());
+		assertTrue(a.withdraw(2, 5_000));
+		assertEquals(5_000, a.getBalance());
+	}
+
+	@Test
+	public void cannotOverdraw()
+	{
+		SavingsAccount a = new SavingsAccount("S-TEST2");
+		assertTrue(a.deposit(1, 1_000));
+		assertFalse(a.withdraw(2, 5_000));
+		assertEquals(1_000, a.getBalance());
 	}
 }
 
