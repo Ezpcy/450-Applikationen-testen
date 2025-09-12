@@ -27,6 +27,9 @@ public class Address {
   private String phonenumber;
   private Date registrationDate;
 
+  public Address() {
+  }
+
   public Address(int id, String firstname, String lastname, String phonenumber, Date registrationDate) {
     this.id = id;
     this.firstname = firstname;
@@ -35,15 +38,44 @@ public class Address {
     this.registrationDate = registrationDate;
   }
 
+  public void setLastname(String name) {
+    this.lastname = name;
+  }
+
   public String getLastname() {
     return this.lastname;
+  }
+
+  public void setFirstname(String name) {
+    this.firstname = name;
   }
 
   public String getFirstname() {
     return this.firstname;
   }
 
+  public void setId(int id) {
+    this.id = id;
+  }
+
   public int getId() {
     return this.id;
   }
+
+  public Date getRegistrationDate() {
+    return this.registrationDate;
+  }
+
+  public void setRegistrationDate(Date date) {
+    this.registrationDate = date;
+  }
+
+  public String getPhonenumber() {
+    return this.phonenumber;
+  }
+
+  public void setPhonenumber(String num) {
+    this.phonenumber = num;
+  }
+
 }

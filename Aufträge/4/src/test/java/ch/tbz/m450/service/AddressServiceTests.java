@@ -1,3 +1,5 @@
+package ch.tbz.m450.service;
+
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import java.util.*;

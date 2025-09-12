@@ -17,7 +17,7 @@ public class UserManagementTest {
 }
 ```
 
-Ergibt eine sauber Darstellung in der IDE:
+Ergibt eine saubere Darstellung in der IDE:
 
 ![](./x_ressources/2025-09-05/image/image.png)
 

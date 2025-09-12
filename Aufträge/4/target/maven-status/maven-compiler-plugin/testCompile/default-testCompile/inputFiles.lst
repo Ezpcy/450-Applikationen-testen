@@ -1,1 +1,3 @@
-/home/ezpz/Nextcloud/ObsidianVault/Schule/Module/450 - Applikationen testen/Aufträge/4/src/test/java/AddressServiceTests.java
+/home/ezpz/Nextcloud/ObsidianVault/Schule/Module/450 - Applikationen testen/Aufträge/4/src/test/java/ch/tbz/m450/controller/AddressControllerTest.java
+/home/ezpz/Nextcloud/ObsidianVault/Schule/Module/450 - Applikationen testen/Aufträge/4/src/test/java/ch/tbz/m450/repository/AddressEntityTest.java
+/home/ezpz/Nextcloud/ObsidianVault/Schule/Module/450 - Applikationen testen/Aufträge/4/src/test/java/ch/tbz/m450/service/AddressServiceTests.java
