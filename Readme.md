@@ -10,3 +10,4 @@
 - [Auftrag 2](./Aufträge/2/2.%20Übungen.md)
 - [Auftrag 3](./Aufträge/3/)
 - [Auftrag 4](./Aufträge/4/)
+- [Auftrag 5](./Aufträge/5/Test%20Automation%20Aufgaben.md)
